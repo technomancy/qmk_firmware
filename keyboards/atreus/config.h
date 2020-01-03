@@ -40,7 +40,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #if defined(PCBDOWN)
 #   define MATRIX_COL_PINS { B7, D6, F7, F6, B6, D4, E6, B4, B5, C6, D7 }
 #else
-#   define MATRIX_COL_PINS { D7, C6, B5, B4, E6, D4, B6, F6, F7, D6, B7 }
+#   define MATRIX_COL_PINS { D7, C6, B5, B3, E6, D4, B6, B1, F7, D6, B7 }
 #endif
 #   define UNUSED_PINS
 #elif defined(ATREUS_TEENSY2)
